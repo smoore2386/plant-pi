@@ -1,0 +1,27 @@
+{
+  "name": "plant-pi",
+  "version": "1.0.0",
+  "description": "Modules for reading input from various weather sensors to the raspberry pi",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smoore2386/plant-pi.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/smoore2386/plant-pi/issues"
+  },
+  "homepage": "https://github.com/smoore2386/plant-pi#readme",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "onoff": "^1.1.2",
+    "rpi-gpio": "^0.7.0"
+  },
+  "devDependencies": {
+    "mock-fs": "^4.2.0"
+  }
+}
